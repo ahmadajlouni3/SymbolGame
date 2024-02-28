@@ -15,14 +15,15 @@ body{
     justify-content: center;
     align-items: center;
     font-family: myFirstFont;
-    
-}
-.app h1{
-    position:absolute;
-    top:30%;
+    width:60%;
+    margin:auto;
+    position : absolute;
+    top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    width:100%;
+}
+.app h1{
+
     text-align: center;
     letter-spacing: 1px;
     word-spacing: 12px;
@@ -33,10 +34,6 @@ body{
     flex-flow:row nowrap;
     justify-content: center;
     align-items: center;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
     width:80%;
     color:white;
     font : normal normal bold 120px/1.1 myFirstFont;
@@ -64,7 +61,6 @@ body{
     left:0;
     width:100vw;
     height:100vh;
-    z-index:1;
     background-color: white;
     display:none;
 }
@@ -86,10 +82,6 @@ body{
     height:100px;
 }
 .check{
-    position:absolute;
-    top:65%;
-    left:50%;
-    transform: translate(-50%,-50%);
     padding:10px 30px;
     font:normal normal bold 20px/1.2 myFirstFont;
     background-color: transparent;
@@ -98,10 +90,6 @@ body{
 }
 .gameMsg{
     font:normal normal bold 100px/1.2 myFirstFont;
-    position:absolute;
-    top:90%;
-    left:50%;
-    transform: translate(-50%,-50%);
 }
 
 .myPage{
@@ -150,7 +138,6 @@ body{
     .app h1{
         font-size: 30px;
         top:10%;
-        width:70%;
     }
     .check{
         top:70%;
